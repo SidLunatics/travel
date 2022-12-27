@@ -86,6 +86,25 @@ p{
   font-weight: 300;
 }
 
+
+.searchbar{
+background: #000;
+width: 40%;
+height: 64px;
+display: flex;
+justify-content: space-between;
+padding: 0;
+}
+
+.search{
+  width: 100%;
+}
+button{
+width: 30%;
+padding: 0;
+}
+
+
 @media screen and (max-width:768px){
   .b1{
     height: 70vh;
