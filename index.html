@@ -45,11 +45,13 @@
         <div
           class="collapse navbar-collapse"
           id="navbarSupportedContent"
-          style="flex-grow: 0">
+          style="flex-grow: 0"
+        >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/index.html"
-                >Home</a>
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/explore.html">Explore</a>
@@ -58,27 +60,51 @@
               <a class="nav-link" href="/explore.html">Travel</a>
             </li>
 
-            <li class="nav-item ">
-              <button class="btn btn-outline-success login" type="submit">Search</button>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog.html">Blog</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-
-
     <!--  Carousel Image -->
-    <div id="myCarousel" class="carousel slide pointer-event " data-bs-ride="carousel" data-bs-interval="2000">
+    <div
+      id="myCarousel"
+      class="carousel slide pointer-event"
+      data-bs-ride="carousel"
+      data-bs-interval="2000"
+    >
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-label="Slide 1"
+          aria-current="true"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          class=""
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          class=""
+        ></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="bd-placeholder-img b1 img-fluid" src=https://images.pexels.com/photos/37542/divers-scuba-reef-underwater-37542.jpeg width="100%"  >
-          
+          <img class="bd-placeholder-img b1 img-fluid"
+          src=https://images.pexels.com/photos/37542/divers-scuba-reef-underwater-37542.jpeg
+          width="100%" >
+
           <div class="container">
             <div class="carousel-caption text-start">
               <h1>Deep Dive</h1>
@@ -88,7 +114,11 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="bd-placeholder-img b2 img-fluid" width="100%" src="https://images.pexels.com/photos/1024975/pexels-photo-1024975.jpeg" >
+          <img
+            class="bd-placeholder-img b2 img-fluid"
+            width="100%"
+            src="https://images.pexels.com/photos/1024975/pexels-photo-1024975.jpeg"
+          />
 
           <div class="container">
             <div class="carousel-caption text-start">
@@ -99,8 +129,12 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="bd-placeholder-img b3 img-fluid" width="100%" src="https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg">
-  
+          <img
+            class="bd-placeholder-img b3 img-fluid"
+            width="100%"
+            src="https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg"
+          />
+
           <div class="container">
             <div class="carousel-caption text-start">
               <h1>Take a Break</h1>
@@ -110,42 +144,103 @@
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" class="b1">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+        class="b1"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" class="b1">
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+        class="b1"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
 
+    <!--   Search Bar -->
+    <div class="container-fluid searchbar ">
+      <form class="d-flex align-items-center search gap-2" role="search">
+        <input
+          class="form-control 2"
+          type="search"
+          placeholder="Search  destination"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline h-100 sea" type="submit">Search</button>
+      </form>
+    </div>
 
-    
-      <div class="container-fluid searchbar mt-5" >
-        <form class="d-flex align-items-center search gap-2" role="search">
-          <input class="form-control 2" type="search" placeholder="Search your destination" aria-label="Search">
-          <button class="btn btn-outline h-100" type="submit">Search</button>
-        </form>
+    <!--    Cards -->
+    <!-- <div class="container cardrow"> -->
+    <div class="grid text-left row r1 " >
+      <div class="col-6 col-md-4 d-flex justify-content-center one_card">
+        <div class="card" style="width: 22rem">
+          <img
+            src="https://images.pexels.com/photos/3581694/pexels-photo-3581694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top"
+            alt="Jaipur City"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jaipur</h5>
+            <p class="card-text decription">
+              Jaipur, also known as the pink city. It was founded by Maharaja
+              Sawai Jai Singh II in November 1727.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm ex">Read More</a>
+          </div>
+        </div>
       </div>
- 
 
+      <div class="col-6 col-md-4 d-flex justify-content-center two_card">
+        <div class="card" style="width: 22rem">
+          <img
+            src="https://images.pexels.com/photos/7846563/pexels-photo-7846563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top"
+            alt="Manali"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Manali</h5>
+            <p class="card-text decription">
+              Manali is a beautiful township nestled in the picturesque Beas River valley in Hiamalayas.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm ex">Read More</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="col-6 col-md-4 d-flex justify-content-center three_card">
+        <div class="card" style="width: 22rem">
+          <img
+            src="https://images.pexels.com/photos/14091088/pexels-photo-14091088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            class="card-img-top"
+            alt="Pune City"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Pune</h5>
+            <p class="card-text decription">
+              Pune called a 'Queen of the Deccan'. Pune is the cultural capital of the Maratha peoples. 
+            </p>
+            <a href="#" class="btn btn-primary btn-sm ex">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- <div class="grid text-center">
+  <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+  <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+  <div class="g-col-6 g-col-md-4">.g-col-6 .g-col-md-4</div>
+</div> -->
 
-
-
-
-
-
-
-
-
-
-
-
-    
-  
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

@@ -99,6 +99,7 @@ p{
 
 .searchbar{
 /* background: #000; */
+margin-top: 6%;
 width: 40%;
 height: 64px;
 display: flex;
@@ -110,7 +111,7 @@ padding: 0;
   width: 100%;
 }
 
-.btn{
+.sea{
 width: 30%;
 padding: 0;
 background: #000;
@@ -118,7 +119,7 @@ color:white ;
 font-family: "Inter", sans-serif;
 font-size: 1rem;
 }
-.btn:hover{
+.sea:hover{
 width: 30%;
 padding: 0;
 background: #D27824;
@@ -143,12 +144,41 @@ font-weight: 400  ;
  font-weight: "Inter";
  
 }
+
+h5{
+  font-size: 1.5rem;
+  font-family: "Inter";
+}
+
+.decription{
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Inter";
+}
+
+.r1{
+  margin: 0 8%;
+  margin-top: 6%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.r1{
+  object-position: center;
+}
  
   
 
   
 
-
+.ex{
+  color: white;
+  background: #000;
+  border: 0;
+  font-family: "Inter";
+  font-weight: 200;
+}
  
   
 
@@ -178,15 +208,16 @@ font-weight: 400  ;
   }
   .searchbar{
     /* background: #000; */
+    margin-top: 8%;
     width: 86%;
     height: 48px;
     display: flex;
     justify-content: space-between;
     padding: 0;
-    margin-top: 10px;
+ 
     }
 
-    .btn{
+    .sea{
       width: 30%;
       padding: 0;
       background: #000;
@@ -194,21 +225,37 @@ font-weight: 400  ;
       font-family: "Inter", sans-serif;
       font-size: 0.8rem;
       }
+
+      .r1{
+        margin: 0 1%;
+        margin-top: 6%;
+        display: flex;
+        justify-content: space-evenly;
+  
+      }
+
+    .three_card{
+      margin-top: 3rem;
+    }
+
+
 }
+
 
 
 @media screen and (max-width:481px) and (min-width: 358px){
   .searchbar{
+    margin-top: 10%;
     /* background: #000; */
     width: 80%;
     height: 48px;
     display: flex;
     justify-content: space-between;
     padding: 0;
-    margin-top: 10px;
+ 
     }
 
-    .btn{
+    .sea{
       width: 30%;
       padding: 0;
       background: #000;
@@ -220,4 +267,28 @@ font-weight: 400  ;
       .form-control{
         padding-left: 8px;
       }
+
+      .r1 {
+        margin: 0 1%;
+        margin-top: 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .one_card{
+      margin-top: 3rem;
+      width: 100%;
+    }
+    .two_card{
+      margin-top: 3rem;
+      width: 100%;
+    }
+    .three_card{
+      margin-top: 3rem;
+      width: 100%;
+    }
+
+
+    
 }
