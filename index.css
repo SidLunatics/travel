@@ -14,6 +14,8 @@ width: 100vw;
 display: block;
 padding: 0.6% 4%;
 justify-content: center;
+background: rgba(217, 217, 217, 0.1);
+backdrop-filter: blur(5px);
 /* background: rgba(217, 217, 217, 0.1);
 box-shadow: inset 72px -72px 72px rgba(165, 165, 165, 0.1), inset -72px 72px 72px rgba(255, 255, 255, 0.1);
 backdrop-filter: blur(72px); */
@@ -24,6 +26,7 @@ backdrop-filter: blur(72px); */
   font-family: "PT Sans", sans-serif;
   font-weight: 800;
   font-size: 1.4rem;
+  
 }
 
 .nav-link {
@@ -34,7 +37,8 @@ backdrop-filter: blur(72px); */
 }
 
 .nav-link:hover {
-  color: aquamarine;
+  color: #FF6B00;
+  font-weight: 400;
 }
 
 
@@ -88,7 +92,7 @@ p{
 
 
 .searchbar{
-background: #000;
+/* background: #000; */
 width: 40%;
 height: 64px;
 display: flex;
@@ -99,10 +103,50 @@ padding: 0;
 .search{
   width: 100%;
 }
-button{
+
+.btn{
 width: 30%;
 padding: 0;
+background: #000;
+color:white ;
+font-family: "Inter", sans-serif;
+font-size: 1rem;
 }
+.btn:hover{
+width: 30%;
+padding: 0;
+background: #D27824;
+color:#ffffff ;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 1rem;
+}
+.form-control{
+  border: none;
+  border-radius: 0;
+  border-bottom: 0.8px solid #000000;
+  height: 60%;
+  font-family: "Inter";
+font-weight: 400  ;
+}
+
+.form-control:focus {
+
+ box-shadow: none;
+ border-bottom: 0.8px solid #000000;
+ 
+}
+ 
+  
+
+  
+
+
+ 
+  
+
+
+
 
 
 @media screen and (max-width:768px){
