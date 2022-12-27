@@ -21,6 +21,8 @@ box-shadow: inset 72px -72px 72px rgba(165, 165, 165, 0.1), inset -72px 72px 72p
 backdrop-filter: blur(72px); */
 }
 
+
+
 .navbar-brand {
   color:bisque;
   font-family: "PT Sans", sans-serif;
@@ -50,6 +52,10 @@ backdrop-filter: blur(72px); */
     stroke-linecap: round;
     stroke-linejoin: round;
 }
+
+.login{
+  width:90%;
+  height:30%}
 
 
 P{
@@ -172,7 +178,7 @@ font-weight: 400  ;
   }
   .searchbar{
     /* background: #000; */
-    width: 80%;
+    width: 86%;
     height: 48px;
     display: flex;
     justify-content: space-between;
@@ -191,8 +197,7 @@ font-weight: 400  ;
 }
 
 
-
-@media screen and (max-width:481px)and(min-width: 360px){
+@media screen and (max-width:481px) and (min-width: 358px){
   .searchbar{
     /* background: #000; */
     width: 80%;
