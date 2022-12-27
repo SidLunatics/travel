@@ -147,10 +147,10 @@ font-weight: 400  ;
   
 
 
+/* 481px — 768px */
 
 
-
-@media screen and (max-width:768px){
+@media screen and ( min-width:481px) and (max-width:768px){
   .b1{
     height: 70vh;
     object-fit: cover;
@@ -187,5 +187,32 @@ font-weight: 400  ;
       color:white ;
       font-family: "Inter", sans-serif;
       font-size: 0.8rem;
+      }
+}
+
+
+
+@media screen and (max-width:481px)and(min-width: 360px){
+  .searchbar{
+    /* background: #000; */
+    width: 80%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 10px;
+    }
+
+    .btn{
+      width: 30%;
+      padding: 0;
+      background: #000;
+      color:white ;
+      font-family: "Inter", sans-serif;
+      font-size: 0.8rem;
+      }
+
+      .form-control{
+        padding-left: 8px;
       }
 }
