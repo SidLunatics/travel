@@ -77,6 +77,11 @@ P{
   object-fit: cover;
   object-position: bottom center;
 }
+.b3{
+  height: 70vh;
+  object-fit: cover;
+  object-position: bottom center;
+}
 
 
 @media screen and (max-width:768px){
@@ -87,6 +92,11 @@ P{
   }
   
   .b2{
+    height: 70vh;
+    object-fit: cover;
+    object-position: bottom center;
+  }
+  .b3{
     height: 70vh;
     object-fit: cover;
     object-position: bottom center;
