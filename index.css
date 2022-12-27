@@ -72,6 +72,11 @@ P{
   object-fit: cover;
   object-position: top left;
 }
+.b2{
+  height: 70vh;
+  object-fit: cover;
+  object-position: bottom center;
+}
 
 
 @media screen and (max-width:768px){
@@ -81,5 +86,13 @@ P{
     object-position: top center;
   }
   
+  .b2{
+    height: 70vh;
+    object-fit: cover;
+    object-position: bottom center;
+  }
+  p{
+    font-weight: 300;
+  }
   
 }
