@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav{
+position: absolute;
+z-index: 10;
+width: 100vw;
+display: block;
+padding: 0.6% 4%;
+justify-content: center;
+/* background: rgba(217, 217, 217, 0.1);
+box-shadow: inset 72px -72px 72px rgba(165, 165, 165, 0.1), inset -72px 72px 72px rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(72px); */
+}
+
+.navbar-brand {
+  color:bisque;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+
+.nav-link:hover {
+  color: aquamarine;
+}
+
+
+#drop{
+    width: 1.2rem;
+    height: 1.2 rem;
+    stroke:aliceblue;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+P{
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.carousel-caption{
+  z-index: 0;
+  left: 4%;
+
+}
+
+.carousel-control-next-icon {
+  background-image: none;
+}
+.carousel-control-prev-icon{
+  background-image: none;
+}
+
+.b1{
+  height: 70vh;
+  object-fit: cover;
+  object-position: top left;
+}
+
+
+@media screen and (max-width:768px){
+  .b1{
+    height: 70vh;
+    object-fit: cover;
+    object-position: top center;
+  }
+  
+  
+}
