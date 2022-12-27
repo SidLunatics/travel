@@ -82,7 +82,9 @@ P{
   object-fit: cover;
   object-position: bottom center;
 }
-
+p{
+  font-weight: 300;
+}
 
 @media screen and (max-width:768px){
   .b1{
@@ -102,7 +104,7 @@ P{
     object-position: bottom center;
   }
   p{
-    font-weight: 300;
+    font-weight: 3000;
   }
   
 }
