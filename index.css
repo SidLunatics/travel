@@ -8,7 +8,8 @@
 }
 body{
   background: #EFE8E1;
-}
+  margin-bottom: 68px;
+  }
 .nav {
   position: absolute;
   z-index: 10;
@@ -101,7 +102,7 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  background: 
+  background: none; 
 }
 
 .search {
@@ -345,7 +346,9 @@ a{
     margin-top: 3rem;
     width: 86%;
   }
-
+  .what{
+       margin-top: 14%;
+}
   .r2{
         object-position: center;
         display: flex;
