@@ -345,4 +345,24 @@ a{
     margin-top: 3rem;
     width: 86%;
   }
+
+  .r2{
+        object-position: center;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+  }
+  .iconbutton{
+    object-position: center;
+    text-align: end;
+    font-family: "inter";
+    font-weight: 500;
+    width: 100% ;
+    object-position: center;
+    background-color: #fff;
+    color:#004f62;
+    border-radius: 0;
+    border: none;
+    height: 2.8rem;
+  }
 }
