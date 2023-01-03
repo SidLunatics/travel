@@ -13,7 +13,7 @@ body{
 .nav {
   position: absolute;
   z-index: 10;
-  width: 100vw;
+  width: 100%;
   display: block;
   padding: 0.6% 4%;
   justify-content: center;
@@ -225,8 +225,9 @@ a{
 }
 
 .explore:hover{
-  text-decoration: underline;
-  text-decoration-color: #004f62;
+  /* text-decoration: underline; */
+  border-bottom: 0.1rem solid #004f62;
+  color: #004f62;
 
 }
 
@@ -236,9 +237,6 @@ a{
     object-position: center;
     margin: 1% 0 ;
   }
-
-  
-  
 }
 
 
@@ -306,6 +304,9 @@ a{
 
     width:44%
   }
+  .what{
+    margin-top: 14%;
+} 
 }
 
 @media screen and (max-width: 481px) and (min-width: 260px) {
