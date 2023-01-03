@@ -68,12 +68,7 @@ P {
   left: 4%;
 }
 
-.carousel-control-next-icon {
-  background-image: none;
-}
-.carousel-control-prev-icon {
-  background-image: none;
-}
+
 
 .b1 {
   height: 70vh;
@@ -131,7 +126,7 @@ p {
   border-radius: 0;
 
 }
-.form-control {
+.s {
   border: none;
   border-radius: 0;
   border-bottom: 0.8px solid #000;
@@ -141,7 +136,7 @@ p {
   background: none;
 }
 
-.form-control:focus {
+.s:focus {
   box-shadow: none;
   border-bottom: 0.8px solid #000000;
   font-weight: "Inter";
@@ -176,7 +171,7 @@ a{
 }
 .r2{
   object-position: center;
-  margin: 1% 0 ;
+  margin:  0 ;
 }
 .ex {
   color: white;
@@ -228,8 +223,50 @@ a{
   /* text-decoration: underline; */
   border-bottom: 0.1rem solid #004f62;
   color: #004f62;
+}
+
+
+
+.airticket{
+  margin-top: 6%;
+  height: 30rem;
+}
+.ticket{
+  font-family: inter;
+  height: 20rem   ;
+  
+}
+.tt{
+  margin-top: 1.5%;
+  width: 100%;
+  display:flex;
+  
+  justify-content: center;
+}
+.trip{
+  margin-top: 0.8rem;
+  display:inline;
+}
+
+.list-group{
+  display:flex;
+  flex-direction: row;
+}
+
+.trip_type{
+font-family: "Inter";
 
 }
+
+.datalist:active{
+  display: ;
+}
+
+/* #exampleDataList{
+  font-size: 1rem;
+font-family: Inter;} */
+
+
 
 
 @media screen and (max-width:976px) {
@@ -351,7 +388,7 @@ a{
     border-radius: 0;
   }
 
-  .form-control {
+  .s {
     padding-left: 8px;
   }
 
