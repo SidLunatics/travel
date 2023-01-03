@@ -242,11 +242,12 @@ font-family: "Inter";
   margin-bottom: 0;
 }
 
-.h5{
+h5{
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 1.5%;
 }
-
 
 
 
