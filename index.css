@@ -224,6 +224,12 @@ a{
   height: 2.8rem;
 }
 
+.explore:hover{
+  text-decoration: underline;
+  text-decoration-color: #004f62;
+
+}
+
 
 @media screen and (max-width:976px) {
   .r2{
