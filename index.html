@@ -211,61 +211,55 @@
 
     <!-- Air Tickets -->
     <div class="container airticket">
-      <div class="tt">
-        <h5 class="card-title">Book Domestic and International Flight Tickets</h5>
-      </div>
       <div class="card ticket" style="width:100%;">
-
-        <!-- <img src="..." class="card-img-top" alt="..."> -->
-        <div class="card-body">
-
-          <div class="trip">
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label trip_type" for="inlineRadio1">One-way</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input trip_type" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                value="option2">
-              <label class="form-check-label trip_type" for="inlineRadio2">Round trip</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input trip_type" type="radio" name="inlineRadioOptions" id="inlineRadio3"
-                value="option3">
-              <label class="form-check-label trip_type" for="inlineRadio3">Multi-City trip</label>
-            </div>
+        <h5 class="card-title container-fluid" style="position: center;" >Book Domestic and International Flight Tickets</h5>
+        <div class="card-body container-fluid">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label trip_type" for="inlineRadio1">One-way</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input trip_type" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+              value="option2">
+            <label class="form-check-label trip_type" for="inlineRadio2">Round trip</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input trip_type" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+              value="option3">
+            <label class="form-check-label trip_type" for="inlineRadio3">Multi-City trip</label>
           </div>
 
-          <div class="container">
-
+<div class="container d-flex" style="margin:0; padding: 0; margin-top: 2%;";>
+          <div class="container-fluid departure " style=" left: 4%; width: 24%; margin: 0; padding-left: 0;">
+            <label for="exampleDataList" class="form-label form-control-sm type">Departure</label>
+            <input class="form-control" list="datalistOptiondep" id="exampleDataList" placeholder="Type to search...">
+            <datalist id="datalistOptiondep">
+              <option value1="San Francisco adison airport">
+              <option value="New York">
+              <option value="Mumbai">
+              <option value="Pune">
+              <option value="Chicago">
+            </datalist>
           </div>
 
-
-          
+          <div class="container-fluid departure " style=" left: 4%; width: 24%; margin: 0; padding-left: 0;">
+            <label for="exampleDataListp" class="form-label form-control-sm type">Destination</label>
+            <input class="form-control" list="datalistOptionsdes" id="exampleDataListp" placeholder="Type to search...">
+            <datalist id="datalistOptionsdes">
+              <option value1="San Francisco adison airport">
+              <option value="New York">
+              <option value="Mumbai">
+              <option value="Pune">
+              <option value="Chicago">
+            </datalist>
+          </div>
+</div>
 
 
         </div>
 
 
-
-
-
-
-
-
       </div>
-      <div>
-        <label for="exampleDataList" class="form-label form-control-sm">Departure</label>
-        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-        <datalist id="datalistOptions">
-          <option value1="San Francisco adison airport">
-          <option value="New York">
-          <option value="Mumbai">
-          <option value="Pune">
-          <option value="Chicago">
-        </datalist>
-      </div>
-
 
 
 

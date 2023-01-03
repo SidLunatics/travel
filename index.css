@@ -225,46 +225,27 @@ a{
   color: #004f62;
 }
 
-
-
+/* ................................................................................... */
 .airticket{
   margin-top: 6%;
-  height: 30rem;
 }
-.ticket{
-  font-family: inter;
-  height: 20rem   ;
-  
-}
-.tt{
-  margin-top: 1.5%;
-  width: 100%;
-  display:flex;
-  
-  justify-content: center;
-}
+
 .trip{
   margin-top: 0.8rem;
   display:inline;
 }
 
-.list-group{
-  display:flex;
-  flex-direction: row;
-}
-
-.trip_type{
+.trip_type, #exampleDataList, #exampleDataListp, label{
 font-family: "Inter";
-
+}
+.type{
+  margin-bottom: 0;
 }
 
-.datalist:active{
-  display: ;
+.h5{
+  display: flex;
+  justify-content: center;
 }
-
-/* #exampleDataList{
-  font-size: 1rem;
-font-family: Inter;} */
 
 
 
