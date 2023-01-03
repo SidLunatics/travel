@@ -284,6 +284,17 @@ a{
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;
   }
+  .sea:hover {
+    width: 30%;
+    padding: 0;
+    background: #ffffff;
+    color: #004f62;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    border:0.02rem solid #004f62 ;
+    border-radius: 0;
+  
+  }
 
   .r1 {
     margin: 0 1%;
@@ -327,6 +338,17 @@ a{
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;
+  }
+
+  .sea:hover {
+    width: 30%;
+    padding: 0;
+    background: #ffffff;
+    color: #004f62;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    border:0.02rem solid #004f62 ;
+    border-radius: 0;
   }
 
   .form-control {
