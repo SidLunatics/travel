@@ -210,7 +210,7 @@
 
 
   <!-- Air Tickets -->
-  <div class="airticket" style="width:100vw; background: white; padding:1.5% 0 2% 0%;">
+  <div class="airticket" style="width:100vw; background: white; padding:1.5% 0 2% 0%;;">
 
     <h5 class="card-title container text-center">Book Domestic and International Flight Tickets</h5>
 
@@ -228,7 +228,8 @@
         <input class="form-check-input trip_type" type="radio" name="inlineRadioOptions" id="inlineRadio3"
           value="option3">
         <label class="form-check-label trip_type" for="inlineRadio3">Multi-City trip</label>
-      </div></div>
+      </div>
+    </div>
 
     <div class="text-left destiny" style="margin:2% 4%">
       <div class="row" style="object-position: center;">
@@ -278,33 +279,35 @@
     <div class=" text-left fare " style="margin:3% 4%">
 
       <div class="grid row align-items-center">
-         <div class="col-lg-6 col-sm-12" style="justify-content: space-around;">
-               <span class="type" style="margin-right: 1rem; font-size:14px;">Fare type:</span>
-               <div class="d-flex list" style="padding-left: 2%; margin-left:1% ;">
-          <div class="form-check form-check-inline fare_type">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio11" value="option1">
-          <label class="form-check-label fare_type1" for="inlineRadio11">Regular</label>
+        <div class="col-lg-6 col-sm-12" style="justify-content: space-around;">
+          <span class="type" style="margin-right: 1rem; font-size:14px;">Fare type:</span>
+          <div class="d-flex list" style="padding-left: 2%; margin-left:1% ;">
+            <div class="form-check form-check-inline fare_type">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio11" value="option1">
+              <label class="form-check-label fare_type1 trip_type" for="inlineRadio11">Regular</label>
+            </div>
+            <div class="form-check form-check-inline fare_type">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio22" value="option2">
+              <label class="form-check-label fare_type1 trip_type" for="inlineRadio22">Armed Forces</label>
+            </div>
+            <div class="form-check form-check-inline fare_type">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio33" value="option3">
+              <label class="form-check-label fare_type1 trip_type" for="inlineRadio33">Students</label>
+            </div>
           </div>
-          <div class="form-check form-check-inline fare_type">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio22" value="option2">
-          <label class="form-check-label fare_type1" for="inlineRadio22">Armed Forces</label>
-          </div>
-          <div class="form-check form-check-inline fare_type">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio33" value="option3">
-          <label class="form-check-label fare_type1" for="inlineRadio33">Students</label>
-          </div>
-          </div>
-         </div>
-             <div class="col-lg-2"></div>
+        </div>
+        <div class="col-lg-2"></div>
 
-          <div class="col-lg-4 col-sm-12 trav" style="object-position: left;">
+        <div class="col-lg-4 col-sm-12 trav" style="object-position: left;">
           <label for="formGroupExampleInput" class="form-label type">Traveller & Class</label>
-          <input type="text" class="form-control traveller" id="formGroupExampleInput" placeholder="Example input placeholder">
-          </div>
+          <input type="text" class="form-control traveller" id="formGroupExampleInput" placeholder="">
+        </div>
       </div>
+      <button type="button" class="btn btn-primary flight sea">Search Flight</button>
     </div>
 
   </div>
+
 
 
 
