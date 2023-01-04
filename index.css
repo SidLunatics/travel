@@ -239,19 +239,60 @@ a{
 .trip_type, #exampleDataList, #exampleDataListp, label{
 font-family: "Inter";
 }
+.trip_type{
+  color:#004f62;
+  font-weight: 500;
+}
 .type{
   margin-bottom: 0;
+  font-family: Raleway;
+  font-weight: 500;
+  letter-spacing:0.04rem;
 }
 
+
+.destiny{
+  margin-top: 2%;
+}
 h5{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1.5%;
+}
+.fare{
+  margin-top: 2.5%;
+
+}
+.fare_type{
+   margin-right: 1.5rem; 
+   padding: 0.8% 2%;
+}
+.fare_type:hover{
+margin-right: 1.5rem;
+  padding: 0.8% 2%;
+  cursor: pointer;
+  background: antiquewhite;
 }
 
+@media screen and (max-width:1210px) {
 
+  .fare{
+    margin-top: 8%;
+  }
+  .trav{
+    margin-top: 2%;
+  }
+  .date{
+    margin-top: 1.5%;
+  }
+ 
+}
 
+@media screen and (max-width:1209px){
+  .traveller{
+    width: 100%;
+}}
+  
 
 @media screen and (max-width:976px) {
   .r2{
@@ -267,6 +308,9 @@ h5{
   }
 
   .destination{
+    width: 100%;
+  }
+  .airticket{
     width: 100%;
   }
 }
@@ -348,8 +392,27 @@ h5{
   .what{
     margin-top: 14%;
 } 
-
+.airticket{
+  margin-top: 6%;
+  width: 100vw;
 }
+.fare_type1{
+  font-size: 0.9rem;
+}
+.date{
+  margin-top: 3%;
+}
+.list{
+  margin-right: 2%;
+  font-size: 0.9rem;
+  display: inline;
+  flex-direction: row;
+  justify-content: start;
+  padding-left:1%;
+}
+}
+
+
 
 @media screen and (max-width: 481px) and (min-width: 260px) {
   .searchbar {
@@ -430,6 +493,35 @@ h5{
     height: 2.8rem;
   }
   .airticket{
-    width:100%}
+    
+      margin-top: 10%;
+      width: 90%;
+  }
+
+    h5{
+      font-size: 1.4rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .trip_type{
+      font-size:1rem ;
+    }
+
+    .type{
+      font-size:0.8rem;
+    }
+    .list{
+      margin-right: 2%;
+      font-size: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      padding-left: 6%;
+    }
+    .type{
+      font-size: 0.8rem;
+    }
+    
   }
 
