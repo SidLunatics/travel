@@ -243,6 +243,7 @@ font-family: "Inter";
 .trip_type{
   color:#004f62;
   font-weight: 500;
+
 }
 .type{
   margin-bottom: 0;
@@ -447,6 +448,29 @@ margin-right: 1.5rem;
   justify-content: start;
   padding-left:1%;
 }
+.sea {
+  width: 30%;
+  padding: 0;
+  background: #004f62;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  border-radius: 0;
+
+}
+.flight{
+  position:absolute;
+  left: 0;
+right: 0;
+/* top: 0; */
+bottom: -0.8rem;
+margin: auto;
+
+border: none;
+font-family: Inter;
+width: 25%;
+padding: 1% 0 !important;
+}
 }
 
 
@@ -510,7 +534,7 @@ margin-right: 1.5rem;
        margin-top: 14%;
 }
   .r2{   
-    margin:0 14%;
+    margin:0 10%;
         object-position: center;
         display: flex;
         justify-content:center;
@@ -537,6 +561,7 @@ margin-right: 1.5rem;
   }
 
     h5{
+      margin-top: 2%;
       font-size: 1.2rem;
       display: flex;
       justify-content: center;
@@ -567,5 +592,46 @@ margin-right: 1.5rem;
     .traveller{
       margin-bottom: 10%;
     }
+    .sea {
+      width: 40%;
+      padding: 0 1%;
+      background: #004f62;
+      color: white;
+      font-family: "Inter", sans-serif;
+      font-size: 0.9rem;
+    
+      border-radius: 0;
+    
+    }
+    
+    .flight{
+      position:absolute;
+      left: 0;
+    right: 0;
+    /* top: 0; */
+    bottom: -1rem;
+    margin: auto;
+    
+    border: none;
+    font-family: Inter;
+    font-size: 0.8rem;
+    width: 35%;
+    height: 6%;
+  
+  }
+  .trip_type{
+    font-size: 1rem;
+  }
+
+  .ra{
+    display: flex;
+    flex-direction: column;
+  }
+  .rad{
+    display: flexbox;
+    margin-top: 2%;
+  }
+
+  
   }
 
