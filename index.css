@@ -330,13 +330,49 @@ h5 {
   width: 20%;
   padding: 1% 0 !important;
 }
+.car{
+  width:70%;
+  height:50%;
+  /* background-color: aqua; */
+}
+.i{
+  object-fit: cover;
+  height:100% ;
+}
+.testi{
+  width: 70%; height:45%;
+}
+
+.ico{
+  background-color: #004f6175;  
+  /* border-radius: 20px; */
+  margin: 20%;
+  height: 60px;
+}
+
+.slid{
+ opacity: 0 !important;
+}
+
+.feed{
+  text-align: justify;
+  padding: 0 2%;
+  height: 60%;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.client{
+ padding: 0 1%;
+  font-family: Inter ;
+  font-weight: 600;
+ 
+
+color: #004f62 !important;
+}
 
 
-
-
-
-
-
+/* ...................................................................................................................................... */
 @media screen and (max-width:1210px) {
 
   .fare {
@@ -357,6 +393,7 @@ h5 {
   .traveller {
     width: 100%;
   }
+  
 }
 
 
@@ -365,7 +402,12 @@ h5 {
     object-position: center;
     margin: 1% 0;
   }
-}
+
+  /* .imgwrap{
+    width: 40%;
+    /* height: 30%; */
+  } 
+
 
 
 @media screen and (max-width: 1200px) {
@@ -515,7 +557,34 @@ h5 {
     width: 25%;
     padding: 1% 0 !important;
   }
+  .car{
+    width:85%;
+    height:50%;
+    background-color: aqua;
+  }
+ 
+  .testi{
+    width: 60%; height:80%;
+  }
+ 
+  .i{
+    object-fit: fill;
+    border-radius: 0 !important;
+
+  }
+  .slid{
+    opacity: 1 !important;
+   }
 }
+
+
+
+@media screen and (max-width: 840px) and (min-width: 760px) {
+  .testimoniala{
+    height: 90%;
+  }
+}
+
 
 
 
@@ -690,5 +759,27 @@ h5 {
     margin-top: 2%;
   }
 
+  .car{
+    width:90%;
+    height:50%;
+    background-color: aqua;
+  }
+  .testi{
+    width: 95%; height:auto;
+  }
+  .ico{
+    background-color: #004f6175;  
+    /* border-radius: 20px; */
+    margin: 20%;
+    height: 60px;
+    display: none;
+  }
 
+  .i{
+    border-radius: 0 !important;
+  }
+  .slid{
+    opacity: 1 !important;
+   }
+  
 }
