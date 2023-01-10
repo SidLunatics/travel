@@ -9,7 +9,7 @@
 
 body {
   background: #efe8e1;
-  margin-bottom: 68px;
+  margin-bottom: 30px;
 }
 
 .nav {
@@ -401,13 +401,16 @@ h5 {
   gap: 30%;
 }
 
+.gps{
+  height: 100%;
+}
 .loc{
   display: flex; 
   flex-direction:column;
   margin-right: 8%;
    object-position: 
   right; width:40%; 
-  height: 40%;
+  height: 100%;
 }
 
 .contacttitle{
@@ -424,6 +427,12 @@ h5 {
   color:azure;
   font-family: PT Sans; 
   width:5rem;
+}
+.foo{
+  background-color:black; 
+  height: 75vh;
+  margin: 0 0;
+  padding: 0 0;
 }
 /* ...................................................................................................................................... */
 @media screen and (max-width: 1210px) {
@@ -528,6 +537,13 @@ h5 {
     display: flex;
     justify-content: space-evenly;
   }
+  .airticket {
+    position: relative;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 90%;
+    height: 100vh;
+  }
   .three_card {
     margin-top: 3rem;
     width: 44%;
@@ -559,6 +575,9 @@ h5 {
     justify-content: start;
     padding-left: 1%;
   }
+  #formGroupExampleInput{
+    padding-bottom: 1%;
+  }
   .sea {
     width: 30%;
     padding: 0;
@@ -568,6 +587,7 @@ h5 {
     font-size: 1rem;
     border-radius: 0;
   }
+
   .flight {
     position: absolute;
     left: 0;
@@ -586,8 +606,8 @@ h5 {
     background-color: aqua;
   }
   .testi {
-    width: 60%;
-    height: 80%;
+    width: 65%;
+    height: 70%;
   }
   .i {
     object-fit: fill;
@@ -639,6 +659,11 @@ h5 {
     align-items: flex-start;
     justify-content: flex-start
   }
+  .foo{
+    background-color:black; 
+    height: 80vh;
+  }
+  
   
 }
 
@@ -840,6 +865,8 @@ h5 {
 .foot{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .smicon{
@@ -850,16 +877,15 @@ h5 {
 }
 
 .loc{
+  margin: 0 6%;
   margin-top:12% ;
   display: flex; 
-  align-items: center;
-  flex-direction:column;
   
-   object-position:center; 
-   width:100vw; 
-  height: 60vh;
-  margin-right: 0;
-  padding-right: 0;
+   width:90vw; 
+  height: 40vh;
+  
+  ;
+
 }
 
 .contacttitle{
@@ -871,6 +897,9 @@ h5 {
       font-weight: 300;
        padding-bottom:1%;
 }
-
+.foo{
+  background-color:black; 
+  height: 100vh;
+}
 
 }
