@@ -380,6 +380,12 @@ h5 {
   width: 2rem;
 }
 
+.col-md-7 {
+  display: flex;
+  align-items: center;
+}
+
+
 /* ...................................................................................................................................... */
 @media screen and (max-width: 1210px) {
   .fare {
@@ -734,4 +740,19 @@ h5 {
     margin-top:18%;
     height:100vh; 
    background-color: #004f62;}
+
+   .textwrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
 }
