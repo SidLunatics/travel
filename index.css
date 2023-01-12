@@ -159,7 +159,7 @@ h5 {
 
 .r1 {
   margin: 0 8%;
-  margin-top: 6%;
+  margin-top: 12%;
   display: flex;
   justify-content: space-evenly;
   object-position: center;
@@ -196,7 +196,7 @@ a {
 
 .what {
   font-family: "PT Sans";
-  margin-top: 2%;
+  margin-top: 10%;
 }
 
 .icon {
@@ -238,7 +238,7 @@ a {
 /* ................................................................................... */
 .airticket {
   position: relative;
-  margin-top: 6%;
+  margin-top: 14%;
   width: 90%;
 }
 
@@ -340,7 +340,7 @@ h5 {
 }
 
 .test {
-  margin-top: 8%;
+  margin-top: 18%;
   height: 100vh;
   background-color: #004f62;
 }
@@ -430,9 +430,10 @@ h5 {
 }
 .foo {
   background-color: black;
-  height: 75vh;
+  height: 90vh;
   margin: 0 0;
   padding: 0 0;
+  margin-top: 14%;
 }
 /* ...................................................................................................................................... */
 @media screen and (max-width: 1210px) {
@@ -533,7 +534,7 @@ h5 {
   }
   .r1 {
     margin: 0 1%;
-    margin-top: 6%;
+    margin-top: 10%;
     display: flex;
     justify-content: space-evenly;
   }
@@ -555,10 +556,10 @@ h5 {
     width: 44%;
   }
   .what {
-    margin-top: 14%;
+    margin-top: 18%;
   }
   .airticket {
-    margin-top: 6%;
+    margin-top: 10%;
     width: 100vw;
   }
   .fare_type1 {
@@ -617,7 +618,7 @@ h5 {
     opacity: 1 !important;
   }
   .test {
-    margin-top: 10%;
+    margin-top: 12%;
     height: 100vh;
     background-color: #004f62;
   }
@@ -893,5 +894,6 @@ h5 {
   .foo {
     background-color: black;
     height: 100vh;
+    margin-top: 14%;
   }
 }
